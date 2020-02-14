@@ -11,12 +11,12 @@
 <body>
     <div class="container">
         <h1>Todo List</h1>
-        <form>
+        <form id="add-todo-form">
             <input type="text" name="add-todo-input" placeholder="Add a new todo...">
             <button class="btn btn-add-todo" type="submit">Add</button>
         </form>
         <input type="text" name="search" id="search" placeholder="Search...">
-        <ul>
+        <ul class="todos">
             <li>
                 <input type="checkbox">Clean the car
                 <button class="btn-delete-todo"></button>
@@ -39,5 +39,8 @@
             </li>
         </ul>
     </div>
+
+    <!-- script -->
+    <script src="js/index.js"></script>
 </body>
 </html>

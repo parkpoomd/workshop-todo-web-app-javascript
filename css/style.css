@@ -71,3 +71,7 @@ input[type=checkbox] {
 .done {
     text-decoration: line-through;
 }
+
+.filtered {
+    display: none;
+}

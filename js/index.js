@@ -31,3 +31,12 @@ todoList.addEventListener('click', event => {
         event.target.parentElement.remove();
     }
 });
+
+// checkbox event
+todoList.addEventListener('change', event => {
+    if (event.target.checked) {
+        event.target.parentElement.classList.add('done');
+    } else {
+        event.target.parentElement.classList.remove('done');
+    }
+});

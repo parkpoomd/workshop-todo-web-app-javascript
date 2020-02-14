@@ -24,3 +24,10 @@ addTodoForm.addEventListener('submit', event => {
         addTodoForm.reset();
     }
 });
+
+// delete todo
+todoList.addEventListener('click', event => {
+    if (event.target.classList.contains('btn-delete-todo')) {
+        event.target.parentElement.remove();
+    }
+});
